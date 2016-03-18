@@ -1,0 +1,6 @@
+fileType,csv
+dataType,analysis
+analysisType,statisticalNetworkReconstruction
+normalizationStatus,TRUE
+organism,HomoSapiens
+disease,dermalNeurofibromatosis
