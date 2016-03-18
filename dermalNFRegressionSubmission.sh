@@ -7,7 +7,7 @@ nthreads=319
 s3="s3://metanetworks/dermalNF/"
 
 #location of data file
-dataFile="/shared/ROSMAP/metanetworkV2/rosmapADRNAseq.csv"
+dataFile="/shared/dermalNF/dermalNFRNAseq.csv"
 
 #location of metanetwork synapse scripts
 pathv="/shared/metanetworkSynapse/"
@@ -34,7 +34,7 @@ errorOutput="/shared/dermalNF/Regressionerror.txt"
 outOutput="/shared/dermalNF/Regressionout.txt"
 
 #job script name
-jobname="ROSMAPRegressionAD"
+jobname="dermalRegression"
 
 
 echo "qsub -v s3=$s3,dataFile=$dataFile,pathv=$pathv,c3net=0,mrnet=0,wgcnaTOM=0,sparrowZ=1,lassoCV1se=1,ridgeCV1se=1,genie3=1,tigress=1,numberCore=$nthreads,outputpath=$outputpath,s3b=$s3b,parentId=$parentId,annotationFile=$annotationFile,provenanceFile=$provenanceFile -pe orte $nthreads -S /bin/bash -V -cwd -N $jobname -e $errorOutput -o $outOutput $pathv/buildNet.sh"
