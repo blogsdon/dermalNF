@@ -5,7 +5,7 @@ synapseLogin()
 voomExprObj <- synGet('syn5812605')
 voomExpr <- read.delim(voomExprObj@filePath,stringsAsFactors=F,sep='\t')
 voomExpr <- data.matrix(voomExpr)
-
+library(dplyr)
 library(utilityFunctions)
 voomExpr3 <- voomExpr %>%
              t %>%
