@@ -2,5 +2,5 @@ provenance,executed
 syn5812605,FALSE
 https://github.com/blogsdon/metanetwork/commit/549fe5e83e211b326362cb4371b9b2e1f4949c4a,TRUE
 https://github.com/blogsdon/metanetworkSynapse/commit/09c8ef074776d94dea797257c480f418e913ff88,TRUE
-https://github.com/blogsdon/CMC/blob/fc013fa575e3fe0ef9f02063a9639edb489d55fd/metanetworksV2/Bipolar/ACC/cmcBipolarBuildConsensus.sh,TRUE
+https://github.com/blogsdon/dermalNF/blob/57e042f61f9aaa2b18cbdb513471dd3f58202b9d/dermalNFBuildConsensus.sh,TRUE
 https://github.com/blogsdon/dermalNF/blob/512fee4bd1a8811280787c438fa5882e0e400ce2/grabAndProcessData.R,TRUE
